@@ -1,0 +1,24 @@
+{
+  "name": "ekmp-algolia",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "dayu",
+  "license": "BSD",
+  "engines": {
+    "node": ">=12"
+  },
+  "bin": {
+    "ekmp-algolia": "bin/ekmp-algolia"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "decompress": "^4.2.1",
+    "nodejs-file-downloader": "^4.12.1",
+    "tar": "^6.1.13"
+  }
+}
