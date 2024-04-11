@@ -191,10 +191,10 @@ async function downloadBinary(pkg, binName) {
     /\/$/,
     ""
   );
-  let fileUrl = `https://github.com/everkm/publish/releases/download/ekmp-algolia%40v${versionFromPackageJSON}/EverkmPublish_${versionFromPackageJSON}_${pkg}`;
+  let fileUrl = `https://github.com/everkm/ekmp-algolia/releases/download/ekmp-algolia%40v${versionFromPackageJSON}/EkmpAlgolia_${versionFromPackageJSON}_${pkg}`;
   if (binaryDist) {
-    // fileUrl = `https://assets.daobox.cc/ekmp-algolia/stable/${versionFromPackageJSON}/EverkmPublish_${versionFromPackageJSON}_${pkg}`;
-    fileUrl = `${binaryDist}/${versionFromPackageJSON}/EverkmPublish_${versionFromPackageJSON}_${pkg}`;
+    // fileUrl = `https://assets.daobox.cc/ekmp-algolia/stable/${versionFromPackageJSON}/EkmpAlgolia_${versionFromPackageJSON}_${pkg}`;
+    fileUrl = `${binaryDist}/${versionFromPackageJSON}/EkmpAlgolia_${versionFromPackageJSON}_${pkg}`;
   }
   // const fileUrl = "http://localhost:8000/daobox/ekmp-algolia.zip";
   const filename = path.join(__dirname, "bin", pkg);
